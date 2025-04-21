@@ -183,7 +183,7 @@ keymap () {
     echo -ne "
     Please select key board layout from this list"
     # These are default key maps as presented in official arch repo archinstall
-    options=(us by ca cf cz de dk es et fa fi fr gr hu il it lt lv mk nl no pl ro ru se sg ua uk)
+    options=(us by ca cf cz de dk es et fa fi fr gr hu il it lt lv mk nl no pl pt-latin1 ro ru se sg ua uk)
 
     select_option "${options[@]}"
     keymap=${options[$?]}
